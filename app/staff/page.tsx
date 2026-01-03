@@ -14,6 +14,16 @@ const staffMembers = [
   },
   {
     name: "JJ99_",
+    role: "Owner",
+    description: "Fundador y desarrollador principal de MinePark. Apasionado por crear la mejor experiencia de Minecraft.",
+    avatar:
+      "https://s.namemc.com/3d/skin/body.png?id=25aa2bc20e73a2d3&model=classic&theta=30&phi=21&time=882.14&width=600&height=800",
+    icon: Crown,
+    color: "text-yellow-400",
+    neonClass: "neon-text-yellow",
+  },
+  {
+    name: "Unknown",
     role: "Manager",
     description: "Supervisa las operaciones diarias y asegura una gestión fluida del servidor.",
     avatar:
@@ -43,7 +53,7 @@ const staffMembers = [
     neonClass: "neon-text-blue",
   },
   {
-    name: "EnderGuardian",
+    name: "Unknown",
     role: "Moderador",
     description: "Mantiene la comunidad segura y ayuda a los jugadores con sus preguntas.",
     avatar:
@@ -53,7 +63,7 @@ const staffMembers = [
     neonClass: "neon-text-green",
   },
   {
-    name: "BlockMaster_Pro",
+    name: "Unknown",
     role: "Constructor",
     description: "Crea estructuras increíbles y gestiona concursos de construcción.",
     avatar:
@@ -63,7 +73,7 @@ const staffMembers = [
     neonClass: "neon-text-purple",
   },
   {
-    name: "CraftHelper_24",
+    name: "Unknown",
     role: "Ayudante",
     description: "Asiste a nuevos jugadores y proporciona apoyo a la comunidad.",
     avatar:

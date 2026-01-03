@@ -8,7 +8,7 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "MinePark - Servidor Premium de Minecraft",
+  title: "MinePark - Servidor No Premium de Minecraft",
   description: "Únete a la experiencia definitiva de supervivencia en Minecraft con plugins personalizados, eventos épicos y una comunidad increíble.",
   generator: 'v0.dev',
   icons: {

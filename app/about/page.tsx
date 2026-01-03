@@ -71,7 +71,7 @@ export default function AboutPage() {
         </div>
 
         {/* Timeline */}
-        <div className="mb-20">
+        {/* <div className="mb-20">
           <h2 className="text-3xl font-bold text-white text-center mb-12 neon-text-green">Nuestro Viaje</h2>
           <div className="space-y-8">
             <div className="flex items-center space-x-6">
@@ -114,7 +114,7 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Values */}
         <div className="text-center">
