@@ -75,7 +75,7 @@ export default function VotingPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 neon-text-green">
-            Vote for <span className="text-green-400">CraftRealm</span>
+            Vote for <span className="text-green-400">MinePark</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
             Support our server by voting on these sites and earn amazing rewards! Your votes help us grow and provide

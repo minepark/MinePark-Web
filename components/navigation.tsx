@@ -37,7 +37,7 @@ export function Navigation() {
               >
                 <Image
                   src="https://sjc.microlink.io/Urp0tNZenE8Ucn9pxVrQWrW5X33QYgvG_DdUbukIjI12XUEK7EXrr0tu5eeNDQNqqzGOYUIAn9YtZnkscMg2bQ.jpeg"
-                  alt="CraftRealm Creeper Logo"
+                  alt="MinePark Creeper Logo"
                   width={40}
                   height={40}
                   className="w-full h-full object-cover"
@@ -45,7 +45,7 @@ export function Navigation() {
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-white neon-text-green group-hover:text-green-300 transition-colors">
-                  CraftRealm
+                  MinePark
                 </span>
                 <span className="text-xs text-gray-400 hidden sm:block">Ultimate Survival</span>
               </div>
@@ -88,7 +88,7 @@ export function Navigation() {
           <div className="flex items-center space-x-4">
             {/* Discord Button - Desktop */}
             <a
-              href="https://discord.gg/craftrealm"
+              href="https://discord.gg/minepark"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:flex items-center space-x-2 discord-btn neon-glow-blue"
@@ -190,7 +190,7 @@ export function Navigation() {
               </Link>
             ))}
             <a
-              href="https://discord.gg/craftrealm"
+              href="https://discord.gg/minepark"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 px-3 py-2 text-base font-medium transition-colors"

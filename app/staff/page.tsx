@@ -5,7 +5,7 @@ const staffMembers = [
   {
     name: "DiamondKing_99",
     role: "Owner",
-    description: "Founder and lead developer of CraftRealm. Passionate about creating the best Minecraft experience.",
+    description: "Founder and lead developer of MinePark. Passionate about creating the best Minecraft experience.",
     avatar:
       "https://s.namemc.com/3d/skin/body.png?id=25aa2bc20e73a2d3&model=classic&theta=30&phi=21&time=882.14&width=600&height=800",
     icon: Crown,
@@ -73,7 +73,7 @@ export default function StaffPage() {
             Our <span className="text-blue-400">Staff Team</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Meet the dedicated team behind CraftRealm who work tirelessly to provide you with the best gaming
+            Meet the dedicated team behind MinePark who work tirelessly to provide you with the best gaming
             experience.
           </p>
         </div>
@@ -116,7 +116,7 @@ export default function StaffPage() {
           <div className="glass-effect p-8 max-w-2xl mx-auto">
             <h2 className="text-2xl font-bold text-white mb-4">Want to Join Our Team?</h2>
             <p className="text-gray-300 mb-6">
-              We're always looking for dedicated players to help make CraftRealm even better. Check out our application
+              We're always looking for dedicated players to help make MinePark even better. Check out our application
               process and requirements.
             </p>
             <button className="minecraft-btn neon-glow-green">Apply Now</button>

@@ -42,7 +42,7 @@ export function FeaturesSection() {
             Server <span className="text-blue-400">Features</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Discover what makes CraftRealm the ultimate Minecraft experience
+            Discover what makes MinePark the ultimate Minecraft experience
           </p>
         </div>
 

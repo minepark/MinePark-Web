@@ -20,7 +20,7 @@ export default function StorePage() {
   useEffect(() => {
     // Redirect to external store after 3 seconds
     const timer = setTimeout(() => {
-      window.open("https://store.craftrealm.net", "_blank")
+      window.open("https://tienda.minepark.es", "_blank")
     }, 3000)
 
     return () => clearTimeout(timer)
@@ -34,7 +34,7 @@ export default function StorePage() {
             <div className="w-16 h-16 rounded-lg overflow-hidden">
               <Image
                 src="https://sjc.microlink.io/Urp0tNZenE8Ucn9pxVrQWrW5X33QYgvG_DdUbukIjI12XUEK7EXrr0tu5eeNDQNqqzGOYUIAn9YtZnkscMg2bQ.jpeg"
-                alt="CraftRealm Creeper Logo"
+                alt="MinePark Creeper Logo"
                 width={64}
                 height={64}
                 className="w-full h-full object-cover"
@@ -43,7 +43,7 @@ export default function StorePage() {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 neon-text-green">
-            CraftRealm <span className="text-green-400">Store</span>
+            MinePark <span className="text-green-400">Tienda</span>
           </h1>
 
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
@@ -61,7 +61,7 @@ export default function StorePage() {
           </div>
 
           <a
-            href="https://store.craftrealm.net"
+            href="https://tienda.minepark.es"
             target="_blank"
             rel="noopener noreferrer"
             className="minecraft-btn inline-flex items-center space-x-2 neon-glow-green"
@@ -72,7 +72,7 @@ export default function StorePage() {
 
           <div className="mt-8">
             <button
-              onClick={() => copyToClipboard("play.craftrealm.net")}
+              onClick={() => copyToClipboard("mc.minepark.es")}
               className="minecraft-btn inline-flex items-center space-x-2 neon-glow-green mr-4"
             >
               <span>{copied ? "IP Copied!" : "Copy Server IP"}</span>

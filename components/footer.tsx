@@ -27,13 +27,13 @@ export function Footer() {
               <div className="w-8 h-8 rounded-lg overflow-hidden neon-glow-green">
                 <Image
                   src="https://sjc.microlink.io/Urp0tNZenE8Ucn9pxVrQWrW5X33QYgvG_DdUbukIjI12XUEK7EXrr0tu5eeNDQNqqzGOYUIAn9YtZnkscMg2bQ.jpeg"
-                  alt="CraftRealm Creeper Logo"
+                  alt="MinePark Creeper Logo"
                   width={32}
                   height={32}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <span className="text-2xl font-bold text-white neon-text-green">CraftRealm</span>
+              <span className="text-2xl font-bold text-white neon-text-green">MinePark</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               The ultimate Minecraft survival experience with custom plugins, events, and an amazing community. Join
@@ -41,9 +41,9 @@ export function Footer() {
             </p>
             <div
               className="glass-effect px-4 py-2 rounded-lg inline-block cursor-pointer hover:bg-white/20 transition-colors"
-              onClick={() => copyToClipboard("play.craftrealm.net")}
+              onClick={() => copyToClipboard("mc.minepark.es")}
             >
-              <span className="text-green-400 font-mono">{copied ? "IP Copied!" : "play.craftrealm.net"}</span>
+              <span className="text-green-400 font-mono">{copied ? "IP Copied!" : "mc.minepark.es"}</span>
             </div>
           </div>
 
@@ -82,7 +82,7 @@ export function Footer() {
             <h3 className="text-white font-bold mb-4">Community</h3>
             <div className="space-y-3">
               <a
-                href="https://discord.gg/craftrealm"
+                href="https://discord.gg/minepark"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-gray-400 hover:text-[#5865F2] transition-colors group"
@@ -109,7 +109,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© 2024 CraftRealm. All rights reserved. Not affiliated with Mojang Studios.</p>
+          <p className="text-gray-400">© 2024 MinePark. All rights reserved. Not affiliated with Mojang Studios.</p>
         </div>
       </div>
     </footer>

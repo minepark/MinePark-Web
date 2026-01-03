@@ -17,7 +17,7 @@ export function useServerStatus(serverIp = "hypixel.net") {
     online: true,
     players: { online: 1247, max: 2000 },
     version: "1.20.4",
-    motd: "CraftRealm - Ultimate Survival",
+    motd: "MinePark - Ultimate Survival",
   })
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -74,7 +74,7 @@ export function useServerStatus(serverIp = "hypixel.net") {
           online: true,
           players: { online: 1247, max: 2000 },
           version: "1.20.4",
-          motd: "CraftRealm - Ultimate Survival",
+          motd: "MinePark - Ultimate Survival",
         })
       } finally {
         setLoading(false)

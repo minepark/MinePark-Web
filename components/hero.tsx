@@ -39,7 +39,7 @@ export function Hero() {
       {/* Main Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 neon-text-green">
-          Welcome to <span className="text-green-400">CraftRealm</span>
+          Welcome to <span className="text-green-400">MinePark</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
           Experience the ultimate Minecraft survival server with custom plugins, epic events, and an amazing community.
@@ -62,7 +62,7 @@ export function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <button
-            onClick={() => copyToClipboard("play.craftrealm.net")}
+            onClick={() => copyToClipboard("mc.minepark.es")}
             className="minecraft-btn flex items-center space-x-2 neon-glow-green"
             style={{
               background: "linear-gradient(to right, #10b981, #059669)",
@@ -95,7 +95,7 @@ export function Hero() {
           </button>
           <div
             className="ip-box cursor-pointer transition-colors"
-            onClick={() => copyToClipboard("play.craftrealm.net")}
+            onClick={() => copyToClipboard("mc.minepark.es")}
             style={{
               background: "rgba(255, 255, 255, 0.1)",
               backdropFilter: "blur(12px)",
@@ -113,7 +113,7 @@ export function Hero() {
               e.currentTarget.style.background = "rgba(255, 255, 255, 0.1)"
             }}
           >
-            <span className="text-green-400 font-mono text-lg">play.craftrealm.net</span>
+            <span className="text-green-400 font-mono text-lg">mc.minepark.es</span>
           </div>
         </div>
 

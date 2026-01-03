@@ -8,10 +8,10 @@ export default function AboutPage() {
         {/* Hero Section */}
         <div className="text-center mb-20">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 neon-text-green">
-            About <span className="text-green-400">CraftRealm</span>
+            About <span className="text-green-400">MinePark</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            CraftRealm was born from a passion for creating the ultimate Minecraft survival experience. Since 2021,
+            MinePark was born from a passion for creating the ultimate Minecraft survival experience. Since 2021,
             we've been dedicated to building a community where creativity, adventure, and friendship thrive.
           </p>
         </div>
@@ -22,7 +22,7 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-white mb-6 neon-text-green">Our Story</h2>
             <div className="space-y-4 text-gray-300">
               <p>
-                CraftRealm began as a small project between friends who shared a love for Minecraft. What started as a
+                MinePark began as a small project between friends who shared a love for Minecraft. What started as a
                 simple survival server has evolved into a thriving community of over 15,000 players.
               </p>
               <p>
@@ -31,7 +31,7 @@ export default function AboutPage() {
                 of all skill levels.
               </p>
               <p>
-                Today, CraftRealm stands as one of the premier Minecraft survival servers, known for our active
+                Today, MinePark stands as one of the premier Minecraft survival servers, known for our active
                 community, professional staff, and commitment to providing the best possible gaming experience.
               </p>
             </div>
@@ -40,7 +40,7 @@ export default function AboutPage() {
           <div className="relative">
             <Image
               src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop"
-              alt="CraftRealm server spawn"
+              alt="MinePark server spawn"
               width={600}
               height={400}
               className="rounded-xl shadow-2xl"
@@ -80,7 +80,7 @@ export default function AboutPage() {
               </div>
               <div className="glass-effect p-6 flex-1">
                 <h3 className="text-xl font-bold text-white mb-2">2021 - The Beginning</h3>
-                <p className="text-gray-300">CraftRealm launches with 20 players and big dreams.</p>
+                <p className="text-gray-300">MinePark launches with 20 players and big dreams.</p>
               </div>
             </div>
 

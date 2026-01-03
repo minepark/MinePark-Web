@@ -101,7 +101,7 @@ export function NewsSection() {
             Latest <span className="text-green-400">News</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Stay updated with the latest events, updates, and announcements from CraftRealm
+            Stay updated with the latest events, updates, and announcements from MinePark
           </p>
         </div>
 
