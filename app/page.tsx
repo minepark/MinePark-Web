@@ -6,7 +6,7 @@ import { FeaturesSection } from "@/components/features-section"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen">
       <Hero />
       <StatsSection />
       <FeaturesSection />

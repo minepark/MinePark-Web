@@ -9,43 +9,43 @@ const votingSites = [
     name: "MinecraftServers.org",
     url: "https://minecraftservers.org/vote/123456",
     logo: "https://minecraft.buzz/template/images/logo.png?v=6",
-    reward: "5 Diamonds + 100 Coins",
-    cooldown: "24 hours",
+    reward: "5 Diamantes + 100 Monedas",
+    cooldown: "24 horas",
   },
   {
     name: "Minecraft-Server-List.com",
     url: "https://minecraft-server-list.com/vote/123456",
     logo: "https://minecraft.buzz/template/images/logo.png?v=6",
-    reward: "Vote Key + XP Boost",
-    cooldown: "24 hours",
+    reward: "Llave de Voto + Mejora de XP",
+    cooldown: "24 horas",
   },
   {
     name: "TopMinecraftServers.org",
     url: "https://topminecraftservers.org/vote/123456",
     logo: "https://minecraft.buzz/template/images/logo.png?v=6",
-    reward: "Rare Items + Money",
-    cooldown: "24 hours",
+    reward: "Items Raros + Dinero",
+    cooldown: "24 horas",
   },
   {
     name: "MinecraftMP.com",
     url: "https://minecraftmp.com/vote/123456",
     logo: "https://minecraft.buzz/template/images/logo.png?v=6",
-    reward: "Vote Crate + Tokens",
-    cooldown: "12 hours",
+    reward: "Cofre de Voto + Tokens",
+    cooldown: "12 horas",
   },
   {
     name: "Minecraft-Servers.biz",
     url: "https://minecraft-servers.biz/vote/123456",
     logo: "https://minecraft.buzz/template/images/logo.png?v=6",
-    reward: "Premium Items",
-    cooldown: "24 hours",
+    reward: "Items Premium",
+    cooldown: "24 horas",
   },
   {
     name: "TopG.org",
     url: "https://topg.org/vote/123456",
     logo: "https://minecraft.buzz/template/images/logo.png?v=6",
-    reward: "Special Rewards",
-    cooldown: "24 hours",
+    reward: "Recompensas Especiales",
+    cooldown: "24 horas",
   },
 ]
 
@@ -71,25 +71,25 @@ export default function VotingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 pt-20">
+    <div className="min-h-screen pt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 neon-text-green">
-            Vote for <span className="text-green-400">MinePark</span>
+            Vota por <span className="text-green-400">MinePark</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Support our server by voting on these sites and earn amazing rewards! Your votes help us grow and provide
-            better experiences.
+            ¡Apoya nuestro servidor votando en estos sitios y gana recompensas increíbles! Tus votos nos ayudan a crecer y proporcionar
+            mejores experiencias.
           </p>
 
           <div className="glass-effect p-6 max-w-md mx-auto">
             <div className="flex items-center justify-center space-x-2 mb-2">
               <Gift className="w-6 h-6 text-green-400" />
               <span className="text-lg font-bold text-white mb-2 group-hover:text-green-400 group-hover:neon-text-green transition-all">
-                Daily Vote Rewards
+                Recompensas Diarias de Voto
               </span>
             </div>
-            <p className="text-green-400 font-semibold">Vote on all sites for bonus rewards!</p>
+            <p className="text-green-400 font-semibold">¡Vota en todos los sitios para obtener recompensas adicionales!</p>
           </div>
         </div>
 
@@ -116,11 +116,11 @@ export default function VotingPage() {
 
               <div className="space-y-3 mb-6">
                 <div className="flex items-center justify-between text-sm">
-                  <span className="text-gray-400">Reward:</span>
+                  <span className="text-gray-400">Recompensa:</span>
                   <span className="text-green-400 font-semibold">{site.reward}</span>
                 </div>
                 <div className="flex items-center justify-between text-sm">
-                  <span className="text-gray-400">Cooldown:</span>
+                  <span className="text-gray-400">Tiempo de Espera:</span>
                   <span className="text-blue-400">{site.cooldown}</span>
                 </div>
               </div>
@@ -131,7 +131,7 @@ export default function VotingPage() {
                 rel="noopener noreferrer"
                 className="w-full minecraft-btn flex items-center justify-center space-x-2 neon-glow-green"
               >
-                <span>Vote Now</span>
+                <span>Votar Ahora</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
             </div>
@@ -143,7 +143,7 @@ export default function VotingPage() {
           <div className="glass-effect p-8">
             <div className="flex items-center space-x-2 mb-6">
               <Trophy className="w-6 h-6 text-yellow-400" />
-              <h2 className="text-2xl font-bold text-white">Top Voters This Month</h2>
+              <h2 className="text-2xl font-bold text-white">Top Votadores Este Mes</h2>
             </div>
 
             <div className="space-y-4">
@@ -181,37 +181,37 @@ export default function VotingPage() {
           <div className="glass-effect p-8">
             <div className="flex items-center space-x-2 mb-6">
               <Gift className="w-6 h-6 text-green-400" />
-              <h2 className="text-2xl font-bold text-white">Vote Rewards</h2>
+              <h2 className="text-2xl font-bold text-white">Recompensas de Voto</h2>
             </div>
 
             <div className="space-y-4">
               <div className="p-4 bg-green-500/10 border border-green-500/20 rounded-lg">
-                <h3 className="text-green-400 font-bold mb-2">Per Vote Rewards</h3>
+                <h3 className="text-green-400 font-bold mb-2">Recompensas por Voto</h3>
                 <ul className="text-gray-300 text-sm space-y-1">
-                  <li>• 5 Diamonds</li>
-                  <li>• 100-500 Coins</li>
-                  <li>• Vote Keys</li>
-                  <li>• XP Boost (30 min)</li>
+                  <li>• 5 Diamantes</li>
+                  <li>• 100-500 Monedas</li>
+                  <li>• Llaves de Voto</li>
+                  <li>• Mejora de XP (30 min)</li>
                 </ul>
               </div>
 
               <div className="p-4 bg-blue-500/10 border border-blue-500/20 rounded-lg">
-                <h3 className="text-blue-400 font-bold mb-2">Daily Vote Bonus</h3>
+                <h3 className="text-blue-400 font-bold mb-2">Bono de Voto Diario</h3>
                 <ul className="text-gray-300 text-sm space-y-1">
-                  <li>• Vote on all 6 sites</li>
-                  <li>• Get 2x rewards</li>
-                  <li>• Bonus vote crate</li>
-                  <li>• Special items</li>
+                  <li>• Vota en los 6 sitios</li>
+                  <li>• Obtén 2x recompensas</li>
+                  <li>• Cofre de voto adicional</li>
+                  <li>• Items especiales</li>
                 </ul>
               </div>
 
               <div className="p-4 bg-purple-500/10 border border-purple-500/20 rounded-lg">
-                <h3 className="text-purple-400 font-bold mb-2">Monthly Top Voter</h3>
+                <h3 className="text-purple-400 font-bold mb-2">Top Votador Mensual</h3>
                 <ul className="text-gray-300 text-sm space-y-1">
-                  <li>• Exclusive rank upgrade</li>
-                  <li>• 10,000 coins</li>
-                  <li>• Rare cosmetics</li>
-                  <li>• Hall of Fame entry</li>
+                  <li>• Mejora de rango exclusiva</li>
+                  <li>• 10,000 monedas</li>
+                  <li>• Cosméticos raros</li>
+                  <li>• Entrada al Salón de la Fama</li>
                 </ul>
               </div>
             </div>

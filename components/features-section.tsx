@@ -3,33 +3,33 @@ import { Sword, Home, Coins, Zap, Users, Shield } from "lucide-react"
 const features = [
   {
     icon: Sword,
-    title: "Custom PvP",
-    description: "Engage in epic battles with custom weapons and abilities in our dedicated PvP zones.",
+    title: "PvP Personalizado",
+    description: "Participa en batallas épicas con armas y habilidades personalizadas en nuestras zonas PvP dedicadas.",
   },
   {
     icon: Home,
-    title: "Land Claims",
-    description: "Protect your builds with our advanced land claiming system and grief protection.",
+    title: "Reclamación de Tierras",
+    description: "Protege tus construcciones con nuestro sistema avanzado de reclamación de tierras y protección contra grief.",
   },
   {
     icon: Coins,
-    title: "Economy System",
-    description: "Trade, buy, and sell with other players using our balanced economy system.",
+    title: "Sistema Económico",
+    description: "Comercia, compra y vende con otros jugadores usando nuestro sistema económico equilibrado.",
   },
   {
     icon: Zap,
-    title: "Custom Plugins",
-    description: "Experience unique gameplay with over 50 custom plugins and features.",
+    title: "Plugins Personalizados",
+    description: "Experimenta una jugabilidad única con más de 50 plugins y características personalizadas.",
   },
   {
     icon: Users,
-    title: "Active Community",
-    description: "Join thousands of active players in our friendly and welcoming community.",
+    title: "Comunidad Activa",
+    description: "Únete a miles de jugadores activos en nuestra comunidad amigable y acogedora.",
   },
   {
     icon: Shield,
-    title: "24/7 Moderation",
-    description: "Our dedicated staff team ensures a safe and fair gaming environment.",
+    title: "Moderación 24/7",
+    description: "Nuestro equipo de staff dedicado garantiza un entorno de juego seguro y justo.",
   },
 ]
 
@@ -39,10 +39,10 @@ export function FeaturesSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 neon-text-blue">
-            Server <span className="text-blue-400">Features</span>
+            Características del <span className="text-blue-400">Servidor</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Discover what makes MinePark the ultimate Minecraft experience
+            Descubre qué hace de MinePark la experiencia definitiva de Minecraft
           </p>
         </div>
 

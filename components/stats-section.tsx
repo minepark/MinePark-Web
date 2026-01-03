@@ -10,15 +10,15 @@ export function StatsSection() {
     {
       icon: Users,
       value: loading ? "..." : status?.players?.online ? `${status.players.online.toLocaleString()}` : "15,000+",
-      label: "Players Online",
+      label: "Jugadores en Línea",
       color: "text-blue-400",
       pulseClass: "pulse-glow-subtle",
       isLive: !loading && !error && status?.online,
     },
     {
       icon: Server,
-      value: loading ? "..." : status?.online ? "99.9%" : "Offline",
-      label: "Server Status",
+      value: loading ? "..." : status?.online ? "99.9%" : "Desconectado",
+      label: "Estado del Servidor",
       color: loading ? "text-yellow-400" : status?.online ? "text-green-400" : "text-red-400",
       pulseClass: status?.online ? "pulse-glow-green" : "",
       isLive: false,
@@ -26,15 +26,15 @@ export function StatsSection() {
     {
       icon: Trophy,
       value: "500+",
-      label: "Events Hosted",
+      label: "Eventos Realizados",
       color: "text-yellow-400",
       pulseClass: "pulse-glow-yellow",
       isLive: false,
     },
     {
       icon: Clock,
-      value: "3 Years",
-      label: "Online Since",
+      value: "3 Años",
+      label: "En Línea Desde",
       color: "text-purple-400",
       pulseClass: "pulse-glow-purple",
       isLive: false,
@@ -42,7 +42,7 @@ export function StatsSection() {
   ]
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800/50">
+    <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
@@ -69,8 +69,8 @@ export function StatsSection() {
                 )}
               </div>
               <div className="text-gray-300 font-medium">{stat.label}</div>
-              {index === 0 && loading && <div className="text-xs text-blue-400 mt-1">Updating...</div>}
-              {index === 0 && error && <div className="text-xs text-yellow-400 mt-1">Demo Mode</div>}
+              {index === 0 && loading && <div className="text-xs text-blue-400 mt-1">Actualizando...</div>}
+              {index === 0 && error && <div className="text-xs text-yellow-400 mt-1">Modo Demo</div>}
             </div>
           ))}
         </div>

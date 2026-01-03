@@ -98,10 +98,10 @@ export function NewsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 neon-text-green">
-            Latest <span className="text-green-400">News</span>
+            Últimas <span className="text-green-400">Noticias</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Stay updated with the latest events, updates, and announcements from MinePark
+            Mantente actualizado con los últimos eventos, actualizaciones y anuncios de MinePark
           </p>
         </div>
 
@@ -145,7 +145,7 @@ export function NewsSection() {
               </h3>
               <p className="text-gray-300 text-sm leading-relaxed">{news.excerpt}</p>
 
-              <div className="mt-4 text-green-400 text-sm font-medium group-hover:text-green-300">Read More →</div>
+              <div className="mt-4 text-green-400 text-sm font-medium group-hover:text-green-300">Leer Más →</div>
             </div>
           ))}
         </div>

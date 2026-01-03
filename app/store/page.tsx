@@ -27,14 +27,14 @@ export default function StorePage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 pt-20">
+    <div className="min-h-screen pt-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <div className="inline-flex items-center justify-center w-24 h-24 bg-green-500/20 rounded-full mb-8 neon-glow-green p-4">
             <div className="w-16 h-16 rounded-lg overflow-hidden">
               <Image
-                src="https://sjc.microlink.io/Urp0tNZenE8Ucn9pxVrQWrW5X33QYgvG_DdUbukIjI12XUEK7EXrr0tu5eeNDQNqqzGOYUIAn9YtZnkscMg2bQ.jpeg"
-                alt="MinePark Creeper Logo"
+                src="/Logo.png"
+                alt="MinePark Logo"
                 width={64}
                 height={64}
                 className="w-full h-full object-cover"
@@ -47,13 +47,13 @@ export default function StorePage() {
           </h1>
 
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Support the server and get exclusive perks, ranks, and items to enhance your gameplay experience.
+            Apoya el servidor y obtén beneficios exclusivos, rangos e items para mejorar tu experiencia de juego.
           </p>
 
           <div className="glass-effect p-8 mb-8">
-            <h2 className="text-2xl font-bold text-white mb-4">Redirecting to Store...</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Redirigiendo a la Tienda...</h2>
             <p className="text-gray-300 mb-6">
-              You will be automatically redirected to our secure store in a few seconds.
+              Serás redirigido automáticamente a nuestra tienda segura en unos segundos.
             </p>
             <div className="w-full bg-slate-700 rounded-full h-2 mb-6">
               <div className="bg-green-500 h-2 rounded-full animate-pulse" style={{ width: "100%" }}></div>
@@ -66,7 +66,7 @@ export default function StorePage() {
             rel="noopener noreferrer"
             className="minecraft-btn inline-flex items-center space-x-2 neon-glow-green"
           >
-            <span>Visit Store Now</span>
+            <span>Visitar Tienda Ahora</span>
             <ExternalLink className="w-5 h-5" />
           </a>
 
@@ -75,22 +75,22 @@ export default function StorePage() {
               onClick={() => copyToClipboard("mc.minepark.es")}
               className="minecraft-btn inline-flex items-center space-x-2 neon-glow-green mr-4"
             >
-              <span>{copied ? "IP Copied!" : "Copy Server IP"}</span>
+              <span>{copied ? "¡IP Copiada!" : "Copiar IP del Servidor"}</span>
             </button>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
             <div className="glass-effect p-6 text-center">
-              <h3 className="text-xl font-bold text-green-400 mb-2">VIP Ranks</h3>
-              <p className="text-gray-300">Exclusive perks and privileges</p>
+              <h3 className="text-xl font-bold text-green-400 mb-2">Rangos VIP</h3>
+              <p className="text-gray-300">Beneficios y privilegios exclusivos</p>
             </div>
             <div className="glass-effect p-6 text-center">
-              <h3 className="text-xl font-bold text-blue-400 mb-2">Cosmetics</h3>
-              <p className="text-gray-300">Unique items and decorations</p>
+              <h3 className="text-xl font-bold text-blue-400 mb-2">Cosméticos</h3>
+              <p className="text-gray-300">Items y decoraciones únicas</p>
             </div>
             <div className="glass-effect p-6 text-center">
-              <h3 className="text-xl font-bold text-purple-400 mb-2">Boosters</h3>
-              <p className="text-gray-300">XP and drop rate multipliers</p>
+              <h3 className="text-xl font-bold text-purple-400 mb-2">Mejoras</h3>
+              <p className="text-gray-300">Multiplicadores de XP y tasa de drops</p>
             </div>
           </div>
         </div>

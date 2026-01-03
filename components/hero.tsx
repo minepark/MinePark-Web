@@ -39,10 +39,10 @@ export function Hero() {
       {/* Main Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 neon-text-green">
-          Welcome to <span className="text-green-400">MinePark</span>
+          Bienvenido a <span className="text-green-400">MinePark</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          Experience the ultimate Minecraft survival server with custom plugins, epic events, and an amazing community.
+          Experimenta el servidor de supervivencia definitivo de Minecraft con plugins personalizados, eventos épicos y una comunidad increíble.
         </p>
 
         {/* Server Status */}
@@ -55,7 +55,7 @@ export function Hero() {
                 borderRadius: "0.5rem",
               }}
             >
-              <span className="text-yellow-400 text-sm">Demo Mode</span>
+              <span className="text-yellow-400 text-sm">Modo Demo</span>
             </div>
           )}
         </div>
@@ -91,7 +91,7 @@ export function Hero() {
             }}
           >
             <Play className="w-5 h-5" />
-            <span>{copied ? "IP Copied!" : "Join Server"}</span>
+            <span>{copied ? "¡IP Copiada!" : "Unirse al Servidor"}</span>
           </button>
           <div
             className="ip-box cursor-pointer transition-colors"
@@ -141,8 +141,8 @@ export function Hero() {
                 </div>
               )}
             </div>
-            <div className="text-gray-300">Players Online</div>
-            {loading && <div className="text-xs text-blue-400 mt-1">Updating...</div>}
+            <div className="text-gray-300">Jugadores en Línea</div>
+            {loading && <div className="text-xs text-blue-400 mt-1">Actualizando...</div>}
           </div>
           <div
             className="text-center hover:bg-white/20 transition-all duration-300 transform hover:scale-105"
@@ -156,7 +156,7 @@ export function Hero() {
             }}
           >
             <div className="text-3xl font-bold text-blue-400 mb-2">24/7</div>
-            <div className="text-gray-300">Server Uptime</div>
+            <div className="text-gray-300">Tiempo Activo</div>
           </div>
           <div
             className="text-center hover:bg-white/20 transition-all duration-300 transform hover:scale-105"
@@ -170,7 +170,7 @@ export function Hero() {
             }}
           >
             <div className="text-3xl font-bold text-purple-400 mb-2">50+</div>
-            <div className="text-gray-300">Custom Plugins</div>
+            <div className="text-gray-300">Plugins Personalizados</div>
           </div>
         </div>
       </div>

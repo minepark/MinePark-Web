@@ -3,9 +3,9 @@ import Image from "next/image"
 
 const staffMembers = [
   {
-    name: "DiamondKing_99",
+    name: "ObrigadoADeus",
     role: "Owner",
-    description: "Founder and lead developer of MinePark. Passionate about creating the best Minecraft experience.",
+    description: "Fundador y desarrollador principal de MinePark. Apasionado por crear la mejor experiencia de Minecraft.",
     avatar:
       "https://s.namemc.com/3d/skin/body.png?id=25aa2bc20e73a2d3&model=classic&theta=30&phi=21&time=882.14&width=600&height=800",
     icon: Crown,
@@ -13,9 +13,9 @@ const staffMembers = [
     neonClass: "neon-text-yellow",
   },
   {
-    name: "RedstoneWizard",
+    name: "JJ99_",
     role: "Manager",
-    description: "Oversees daily operations and ensures smooth server management.",
+    description: "Supervisa las operaciones diarias y asegura una gestión fluida del servidor.",
     avatar:
       "https://s.namemc.com/3d/skin/body.png?id=25aa2bc20e73a2d3&model=classic&theta=30&phi=21&time=882.14&width=600&height=800",
     icon: Shield,
@@ -23,9 +23,19 @@ const staffMembers = [
     neonClass: "neon-text-red",
   },
   {
-    name: "CodeCrafter_MC",
-    role: "Developer",
-    description: "Creates custom plugins and maintains server infrastructure.",
+    name: "ObrigadoADeus",
+    role: "Desarrollador",
+    description: "Crea plugins personalizados y mantiene la infraestructura del servidor.",
+    avatar:
+      "https://s.namemc.com/3d/skin/body.png?id=25aa2bc20e73a2d3&model=classic&theta=30&phi=21&time=882.14&width=600&height=800",
+    icon: Wrench,
+    color: "text-blue-400",
+    neonClass: "neon-text-blue",
+  },
+  {
+    name: "JJ99_",
+    role: "Desarrollador",
+    description: "Crea plugins personalizados y mantiene la infraestructura del servidor.",
     avatar:
       "https://s.namemc.com/3d/skin/body.png?id=25aa2bc20e73a2d3&model=classic&theta=30&phi=21&time=882.14&width=600&height=800",
     icon: Wrench,
@@ -34,8 +44,8 @@ const staffMembers = [
   },
   {
     name: "EnderGuardian",
-    role: "Moderator",
-    description: "Keeps the community safe and helps players with their questions.",
+    role: "Moderador",
+    description: "Mantiene la comunidad segura y ayuda a los jugadores con sus preguntas.",
     avatar:
       "https://s.namemc.com/3d/skin/body.png?id=25aa2bc20e73a2d3&model=classic&theta=30&phi=21&time=882.14&width=600&height=800",
     icon: Users,
@@ -44,8 +54,8 @@ const staffMembers = [
   },
   {
     name: "BlockMaster_Pro",
-    role: "Builder",
-    description: "Creates amazing structures and manages building contests.",
+    role: "Constructor",
+    description: "Crea estructuras increíbles y gestiona concursos de construcción.",
     avatar:
       "https://s.namemc.com/3d/skin/body.png?id=25aa2bc20e73a2d3&model=classic&theta=30&phi=21&time=882.14&width=600&height=800",
     icon: Users,
@@ -54,8 +64,8 @@ const staffMembers = [
   },
   {
     name: "CraftHelper_24",
-    role: "Helper",
-    description: "Assists new players and provides support to the community.",
+    role: "Ayudante",
+    description: "Asiste a nuevos jugadores y proporciona apoyo a la comunidad.",
     avatar:
       "https://s.namemc.com/3d/skin/body.png?id=25aa2bc20e73a2d3&model=classic&theta=30&phi=21&time=882.14&width=600&height=800",
     icon: Users,
@@ -66,15 +76,14 @@ const staffMembers = [
 
 export default function StaffPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 pt-20">
+    <div className="min-h-screen pt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 neon-text-blue">
-            Our <span className="text-blue-400">Staff Team</span>
+            Nuestro <span className="text-blue-400">Equipo Staff</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Meet the dedicated team behind MinePark who work tirelessly to provide you with the best gaming
-            experience.
+            Conoce al equipo dedicado detrás de MinePark que trabaja incansablemente para brindarte la mejor experiencia de juego.
           </p>
         </div>
 
@@ -114,12 +123,12 @@ export default function StaffPage() {
 
         <div className="mt-16 text-center">
           <div className="glass-effect p-8 max-w-2xl mx-auto">
-            <h2 className="text-2xl font-bold text-white mb-4">Want to Join Our Team?</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">¿Quieres Unirte a Nuestro Equipo?</h2>
             <p className="text-gray-300 mb-6">
-              We're always looking for dedicated players to help make MinePark even better. Check out our application
-              process and requirements.
+              Siempre estamos buscando jugadores dedicados para ayudar a hacer MinePark aún mejor. Consulta nuestro proceso de
+              solicitud y requisitos.
             </p>
-            <button className="minecraft-btn neon-glow-green">Apply Now</button>
+            <button className="minecraft-btn neon-glow-green">Aplicar Ahora</button>
           </div>
         </div>
       </div>

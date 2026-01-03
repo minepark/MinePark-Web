@@ -57,7 +57,7 @@ export function NewsModal({ news, onClose }: NewsModalProps) {
           <button
             onClick={onClose}
             className="absolute top-4 right-4 z-10 p-2 rounded-full bg-black/50 hover:bg-black/70 transition-colors group"
-            aria-label="Close modal"
+            aria-label="Cerrar modal"
           >
             <X className="w-6 h-6 text-white group-hover:text-red-400 transition-colors" />
           </button>
@@ -84,7 +84,7 @@ export function NewsModal({ news, onClose }: NewsModalProps) {
             {/* ESC hint */}
             <div className="mt-8 pt-4 border-t border-white/10">
               <p className="text-gray-500 text-sm text-center">
-                Press <kbd className="px-2 py-1 bg-gray-700 rounded text-xs">ESC</kbd> or click outside to close
+                Presiona <kbd className="px-2 py-1 bg-gray-700 rounded text-xs">ESC</kbd> o haz clic fuera para cerrar
               </p>
             </div>
           </div>

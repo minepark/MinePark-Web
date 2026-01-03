@@ -4,22 +4,22 @@ const rules = [
   {
     icon: Shield,
     title: "No Griefing",
-    description: "Respect other players' builds and creations. Griefing will result in immediate punishment.",
+    description: "Respeta las construcciones y creaciones de otros jugadores. El griefing resultará en castigo inmediato.",
   },
   {
     icon: Users,
-    title: "Be Respectful",
-    description: "Treat all players with respect. No harassment, discrimination, or toxic behavior.",
+    title: "Sé Respetuoso",
+    description: "Trata a todos los jugadores con respeto. No se permite acoso, discriminación o comportamiento tóxico.",
   },
   {
     icon: Zap,
-    title: "No Cheating",
-    description: "Hacked clients, exploits, and unfair advantages are strictly prohibited.",
+    title: "No Hacer Trampa",
+    description: "Clientes hackeados, exploits y ventajas injustas están estrictamente prohibidos.",
   },
   {
     icon: Heart,
-    title: "Have Fun",
-    description: "Most importantly, enjoy your time on the server and help create a positive community.",
+    title: "Diviértete",
+    description: "Lo más importante, disfruta tu tiempo en el servidor y ayuda a crear una comunidad positiva.",
   },
 ]
 
@@ -29,10 +29,10 @@ export function RulesSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 neon-text-red">
-            Server <span className="text-red-400">Rules</span>
+            Reglas del <span className="text-red-400">Servidor</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Follow these simple rules to ensure everyone has a great experience
+            Sigue estas simples reglas para asegurar que todos tengan una gran experiencia
           </p>
         </div>
 

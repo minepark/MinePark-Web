@@ -26,8 +26,8 @@ export function Footer() {
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 rounded-lg overflow-hidden neon-glow-green">
                 <Image
-                  src="https://sjc.microlink.io/Urp0tNZenE8Ucn9pxVrQWrW5X33QYgvG_DdUbukIjI12XUEK7EXrr0tu5eeNDQNqqzGOYUIAn9YtZnkscMg2bQ.jpeg"
-                  alt="MinePark Creeper Logo"
+                  src="/Logo.png"
+                  alt="MinePark Logo"
                   width={32}
                   height={32}
                   className="w-full h-full object-cover"
@@ -36,8 +36,8 @@ export function Footer() {
               <span className="text-2xl font-bold text-white neon-text-green">MinePark</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
-              The ultimate Minecraft survival experience with custom plugins, events, and an amazing community. Join
-              thousands of players in our premium server.
+              La experiencia definitiva de supervivencia en Minecraft con plugins personalizados, eventos épicos y una comunidad increíble. Únete
+              a miles de jugadores en nuestro servidor premium.
             </p>
             <div
               className="glass-effect px-4 py-2 rounded-lg inline-block cursor-pointer hover:bg-white/20 transition-colors"
@@ -48,16 +48,16 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-bold mb-4">Quick Links</h3>
+            <h3 className="text-white font-bold mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-gray-400 hover:text-green-400 transition-colors">
-                  Home
+                  Inicio
                 </Link>
               </li>
               <li>
                 <Link href="/store" className="text-gray-400 hover:text-green-400 transition-colors">
-                  Store
+                  Tienda
                 </Link>
               </li>
               <li>
@@ -67,19 +67,19 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/voting" className="text-gray-400 hover:text-green-400 transition-colors">
-                  Vote
+                  Votar
                 </Link>
               </li>
               <li>
                 <Link href="/about" className="text-gray-400 hover:text-green-400 transition-colors">
-                  About
+                  Acerca de
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-white font-bold mb-4">Community</h3>
+            <h3 className="text-white font-bold mb-4">Comunidad</h3>
             <div className="space-y-3">
               <a
                 href="https://discord.gg/minepark"
@@ -98,18 +98,18 @@ export function Footer() {
               </a>
               <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-red-400 transition-colors">
                 <Users className="w-5 h-5" />
-                <span>Forums</span>
+                <span>Foros</span>
               </a>
               <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-green-400 transition-colors">
                 <Mail className="w-5 h-5" />
-                <span>Support</span>
+                <span>Soporte</span>
               </a>
             </div>
           </div>
         </div>
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© 2024 MinePark. All rights reserved. Not affiliated with Mojang Studios.</p>
+          <p className="text-gray-400">© 2026 MinePark. Todos los derechos reservados. No afiliado con Mojang Studios.</p>
         </div>
       </div>
     </footer>
